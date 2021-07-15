@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+:root {
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --g-t-cyan: hsl(167, 40%, 24%);
+  --photo-t-dark-blue: hsl(198, 62%, 26%);
+  --footer-cyan: hsl(168, 34%, 41%);
+  --very-dark: hsl(212, 27%, 19%);
+  --very-dark-gray-blue: hsl(213, 9%, 39%);
+  --dark-gray-blue: hsl(232, 10%, 55%);
+  --blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Barlow, "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=base.css.map */
