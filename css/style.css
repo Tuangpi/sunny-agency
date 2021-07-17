@@ -208,6 +208,9 @@ main .transform, main .stand-out {
 main .transform__card, main .stand-out__card {
   width: 70%;
 }
+main .transform__card h2, main .stand-out__card h2 {
+  font-family: Fraunces, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 @media screen and (max-width: 700px) {
   main .transform__card, main .stand-out__card {
     width: 90%;
@@ -221,6 +224,7 @@ main .transform__card, main .stand-out__card {
 main .transform__cardbody, main .stand-out__cardbody {
   margin: 2rem 0 2.8rem 0;
   color: var(--very-dark-gray-blue);
+  line-height: 1.8rem;
 }
 @media screen and (max-width: 700px) {
   main .transform__cardbody, main .stand-out__cardbody {
@@ -318,6 +322,8 @@ main .graphic__cardbody, main .photography__cardbody {
   margin-top: 2rem;
   text-align: center;
   color: var(--g-t-cyan);
+  font-size: 15px;
+  line-height: 1.6rem;
 }
 @media screen and (max-width: 700px) {
   main .graphic__cardbody, main .photography__cardbody {
@@ -446,6 +452,12 @@ footer .social-icon {
   column-gap: 2rem;
   margin: 4rem 0 3.5rem 0;
   display: flex;
+}
+footer .social-icon .social {
+  cursor: pointer;
+}
+footer .social-icon .social:hover {
+  filter: brightness(0) invert(1);
 }
 
 /*# sourceMappingURL=style.css.map */
