@@ -136,12 +136,12 @@
   }
 }
 
-main {
+section {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 @media screen and (max-width: 700px) {
-  main {
+  section {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, min-max(30rem, 1fr));
@@ -149,54 +149,54 @@ main {
   }
 }
 @media screen and (max-width: 700px) {
-  main .egg {
+  section .egg {
     grid-area: a;
   }
-  main .transform {
+  section .transform {
     grid-area: b;
   }
 }
-main .transform, main .stand-out {
+section .transform, section .stand-out {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-main .transform__card, main .stand-out__card {
+section .transform__card, section .stand-out__card {
   width: 70%;
 }
-main .transform__card h2, main .stand-out__card h2 {
+section .transform__card h2, section .stand-out__card h2 {
   font-family: Fraunces, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 @media screen and (max-width: 700px) {
-  main .transform__card, main .stand-out__card {
+  section .transform__card, section .stand-out__card {
     width: 90%;
     text-align: center;
     margin-bottom: 4rem;
   }
-  main .transform__card h2, main .stand-out__card h2 {
+  section .transform__card h2, section .stand-out__card h2 {
     margin-top: 3rem;
   }
 }
-main .transform__cardbody, main .stand-out__cardbody {
+section .transform__cardbody, section .stand-out__cardbody {
   margin: 2rem 0 2.8rem 0;
   color: var(--very-dark-gray-blue);
   line-height: 1.8rem;
 }
 @media screen and (max-width: 700px) {
-  main .transform__cardbody, main .stand-out__cardbody {
+  section .transform__cardbody, section .stand-out__cardbody {
     margin-bottom: 2rem;
   }
 }
-main .transform__card span, main .stand-out__card span {
+section .transform__card span, section .stand-out__card span {
   position: relative;
 }
-main .transform__card span a, main .stand-out__card span a {
+section .transform__card span a, section .stand-out__card span a {
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
 }
-main .transform__card span::before, main .stand-out__card span::before {
+section .transform__card span::before, section .stand-out__card span::before {
   content: "";
   width: 0;
   height: 40%;
@@ -206,18 +206,18 @@ main .transform__card span::before, main .stand-out__card span::before {
   top: 1rem;
   transition: all ease-in-out 120ms;
 }
-main .transform__card span:hover::before, main .stand-out__card span:hover::before {
+section .transform__card span:hover::before, section .stand-out__card span:hover::before {
   width: 100%;
 }
-main .stand-out__card span {
+section .stand-out__card span {
   position: relative;
 }
-main .stand-out__card span a {
+section .stand-out__card span a {
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
 }
-main .stand-out__card span::before {
+section .stand-out__card span::before {
   content: "";
   width: 0;
   height: 40%;
@@ -227,31 +227,31 @@ main .stand-out__card span::before {
   top: 1rem;
   transition: all ease-in-out 120ms;
 }
-main .stand-out__card span:hover::before {
+section .stand-out__card span:hover::before {
   width: 100%;
 }
-main .egg {
+section .egg {
   background-image: url(../images/desktop/image-transform.jpg);
 }
-main .glass {
+section .glass {
   background-image: url(../images/desktop/image-stand-out.jpg);
 }
-main .egg, main .glass {
+section .egg, section .glass {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 35rem;
 }
-main .graphic {
+section .graphic {
   background-image: url(../images/desktop/image-graphic-design.jpg);
 }
-main .photography {
+section .photography {
   background-image: url(../images/desktop/image-photography.jpg);
 }
-main .photography__cardbody {
+section .photography__cardbody {
   color: var(--photo-t-dark-blue) !important;
 }
-main .graphic, main .photography {
+section .graphic, section .photography {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -261,21 +261,21 @@ main .graphic, main .photography {
   align-items: center;
   justify-content: center;
 }
-main .graphic__card, main .photography__card {
+section .graphic__card, section .photography__card {
   margin-top: 14rem;
   width: 50%;
 }
 @media screen and (max-width: 700px) {
-  main .graphic__card, main .photography__card {
+  section .graphic__card, section .photography__card {
     margin-top: 20rem;
   }
 }
-main .graphic__card h2, main .photography__card h2 {
+section .graphic__card h2, section .photography__card h2 {
   text-align: center;
   font-size: 2rem;
   text-transform: capitalize;
 }
-main .graphic__cardbody, main .photography__cardbody {
+section .graphic__cardbody, section .photography__cardbody {
   margin-top: 2rem;
   text-align: center;
   color: var(--g-t-cyan);
@@ -283,7 +283,7 @@ main .graphic__cardbody, main .photography__cardbody {
   line-height: 1.6rem;
 }
 @media screen and (max-width: 700px) {
-  main .graphic__cardbody, main .photography__cardbody {
+  section .graphic__cardbody, section .photography__cardbody {
     margin-bottom: 3rem;
   }
 }
