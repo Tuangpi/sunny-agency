@@ -25,8 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Tuangpi/sunny-agency)
-- Live Site URL: [Add live site URL here](https://tuangpi.github.io/sunny-agency/)
+- Live Site URL: [https://tuangpi.github.io/sunny-agency](https://tuangpi.github.io/sunny-agency/)
 
 ## My process
 
